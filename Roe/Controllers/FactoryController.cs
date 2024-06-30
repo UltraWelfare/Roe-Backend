@@ -24,7 +24,7 @@ public class FactoryController(FactoryService factoryService): BaseController
         return result;
     }
     
-    [HttpPost("create")]
+    [HttpPost()]
     [Authorize]
     public async Task<CreateFactoryResponse> Create([FromBody] CreateFactoryParameters parameters)
     {

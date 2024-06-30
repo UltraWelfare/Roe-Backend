@@ -64,7 +64,8 @@ public class FactoryService(RoeContext db)
         return new CreateFactoryResponse
         {
             Id = factory.Id,
-            Name = factory.Name
+            Name = factory.Name,
+            Slug = factory.Slug
         };
     }
 }

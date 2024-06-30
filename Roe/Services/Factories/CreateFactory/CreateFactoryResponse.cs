@@ -5,4 +5,6 @@ public class CreateFactoryResponse
     public required int Id { get; set; }
     
     public required string Name { get; set; } = null!;
+
+    public required string Slug { get; set; } = null!;
 }
